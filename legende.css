@@ -187,6 +187,7 @@ header {
   position: absolute;
   left: -37px;
   top: 60%;
+  z-index: -1;
 }
 
 .guitareface1 {
