@@ -1,0 +1,298 @@
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/oswald-light-webfont.woff2") format("woff2"),
+    url("fonts/oswald-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/oswald-regular-webfont.woff2") format("woff2"),
+    url("fonts/oswald-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/oswald-bold-webfont.woff2") format("woff2"),
+    url("fonts/oswald-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("fonts/lato-reg-webfont.woff2") format("woff2"),
+    url("fonts/lato-reg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("fonts/lato-bol-webfont.woff2") format("woff2"),
+    url("fonts/lato-bol-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Oswald";
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.details {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -75px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  font-weight: normal;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1130px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70px;
+  height: 45px;
+}
+
+.header__buttons {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header__button {
+  font-family: "oswald";
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #A8643C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.hero {
+  margin-top: 75px;
+  height: 60vh;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url("assets/herobackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 52px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+.hero__button {
+  width: 100px;
+  font-family: "oswald";
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #111111;
+  padding: 23px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details.space {
+  margin-top: 100px;
+}
+
+.details__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.details__text.high {
+  height: 250px;
+}
+
+.text__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.text__line {
+  width: 61.3px;
+  height: 1px;
+  background: #A8643C;
+}
+
+.text__content {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: normal;
+  max-width: 350px;
+}
+
+.highlight {
+  color: #A8643C;
+  font-weight: normal;
+}
+
+.details__illustration {
+  max-width: 730px;
+}
+
+.details__illustration.order {
+  order: -1;
+}
+
+.quote {
+  margin: 0 auto;
+  margin-top: 150px;
+  text-transform: uppercase;
+  max-width: 580px;
+  text-align: center;
+}
+
+.quote__quotes {
+  font-size: 36px;
+  color: #A8643C;
+}
+
+.quote__text {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.quote__author {
+  font-size: 36px;
+  font-weight: 300;
+  color: #A8643C;
+}
+
+.hero__slash img {
+  width: 100%;
+  height: auto;
+}
+
+.podium {
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 1110px;
+  height: 512px;
+  background-image: url("assets/podium.png");
+  background-repeat: no-repeat;
+}
+
+.end {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.asterisque {
+  font-family: "Lato";
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 50px;
+  -webkit-box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  -moz-box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  position: relative;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__links {
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo--center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+

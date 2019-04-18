@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/oswald-light-webfont.woff2") format("woff2"),
+    url("fonts/oswald-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/oswald-regular-webfont.woff2") format("woff2"),
+    url("fonts/oswald-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/oswald-bold-webfont.woff2") format("woff2"),
+    url("fonts/oswald-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("fonts/lato-reg-webfont.woff2") format("woff2"),
+    url("fonts/lato-reg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("fonts/lato-bol-webfont.woff2") format("woff2"),
+    url("fonts/lato-bol-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Oswald";
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.details {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  height: 75px;
+  width:100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -75px;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  box-shadow: 0px 2px 4px 0px rgba(117, 117, 117, 0.25);
+  font-weight: normal;
+  z-index: 99;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1130px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70px;
+  height: 45px;
+}
+
+.header__buttons {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header__button {
+  font-family: "oswald";
+  cursor: pointer;
+  background-color: #A8643C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  justify-content: space-between;
+}
+
+.details.space {
+  margin-top: 125px;
+}
+
+.details__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 573px;
+  margin-top: 30px;
+}
+.details__text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 573px;
+  margin-top: 14%;
+}
+
+.details__text3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 573px;
+  margin-top: 14%;
+  margin-left: 5%;
+}
+.details__text2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 389px;
+  width: 935px;
+  margin-top: 14%;
+  background-color: black;
+}
+
+.text__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.text__content {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: normal;
+  max-width: 550px;
+  margin-top: 40px;
+}
+
+.highlight {
+  color: #A8643C;
+  font-weight: normal;
+}
+
+.details__illustration {
+  max-width: 730px;
+  margin-top: 25px;
+}
+
+.details__illustration.order {
+  order: -1;
+}
+
+.guitareface {
+  position: absolute;
+  left: -37px;
+  top: 60%;
+}
+
+.guitareface1 {
+  position: absolute;
+  left: 78vw;
+  z-index: -1;
+  top: 112vh;
+}
+
+.details__illustration2 {
+  background-color: black;
+  max-width: 935px;
+  height: 389px;
+}
+
+
+.text__content1 {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: normal;
+  max-width: 433px;
+  margin-top: 40px;
+}
+
+.text__content2 {
+  position: absolute;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: normal;
+  max-width: 387px;
+  margin-top: 9%;
+  margin-left: 2%;
+  color: white;
+}
+.text__content3 {
+  position: absolute;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: normal;
+  max-width: 387px;
+  margin-top: 6%;
+  color: black;
+}
+
+.text__title2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+.chuck {
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.guitareface2 {
+  margin-left: 5%;
+}
+
+.guitareface3 {
+  margin-left: -11vw;
+  z-index: -1;
+}
+
+.text__title3 {
+  width: 10vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+footer {
+  margin-top: 50px;
+  -webkit-box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  -moz-box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  box-shadow: 0px -2px 1.5px 0px rgba(190,190,190,0.2);
+  position: relative;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__links {
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo--center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
